@@ -1,0 +1,7 @@
+Control Theme,ISO 27001,CIS Controls v8.1,NIST CSF 2.0,Test Approach
+Identity lifecycle,A.5.16,5,PR.AA,Sample joiner mover leaver records
+Privileged access,A.8.2,6,PR.AA,Review role assignments and approvals
+Logging and monitoring,A.8.15,8,DE.CM,Inspect retention alerts and review evidence
+Backup and recovery,A.8.13,11,RC.RP,Review schedules and restoration tests
+Vulnerability management,A.8.8,7,ID.RA,Trace findings through remediation closure
+

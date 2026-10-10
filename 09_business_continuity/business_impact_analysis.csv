@@ -1,0 +1,6 @@
+Business Service,Maximum Tolerable Downtime,RTO,RPO,Key Dependencies,Primary Impact,Recovery Priority
+Customer Support,24 hours,8 hours,4 hours,Email CRM identity,Customer and contractual impact,1
+Payment Processing,8 hours,2 hours,15 minutes,Payment platform network database,Revenue and compliance impact,1
+Payroll,72 hours,24 hours,8 hours,Payroll provider HR data approvals,Workforce and legal impact,2
+Internal Collaboration,48 hours,12 hours,4 hours,Identity cloud collaboration endpoints,Productivity impact,3
+

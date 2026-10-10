@@ -1,0 +1,5 @@
+Vendor,Service Criticality,Data Sensitivity,Control Maturity,Open Findings,Residual Risk,Decision
+Sample Payroll Provider,High,High,Strong,1 Medium,Medium,Approve with monitoring
+Sample Collaboration Platform,Medium,Medium,Strong,None,Low,Approve
+Sample Analytics Vendor,Medium,High,Developing,2 High,High,Conditional approval pending remediation
+

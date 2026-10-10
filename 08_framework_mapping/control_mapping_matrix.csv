@@ -1,0 +1,9 @@
+Control Theme,ISO/IEC 27001,CIS Controls v8.1,NIST CSF 2.0,Implementation Evidence
+Governance,A.5 organizational controls,1 and 4,GV.PO and GV.RR,Approved policies roles and review records
+Asset management,A.5.9,1,ID.AM,Hardware software and data inventories
+Identity and access,A.5.15 through A.5.18,5 and 6,PR.AA,Provisioning MFA access reviews and privileged logs
+Vulnerability management,A.8.8,7,ID.RA and PR.PS,Scan results remediation tickets and validation
+Logging and monitoring,A.8.15 through A.8.16,8,DE.CM,Central logs alerts triage and review evidence
+Incident response,A.5.24 through A.5.28,17,RS.MA through RS.CO,Plan playbooks incident records and exercises
+Recovery,A.5.29 through A.5.30 and A.8.13,11,RC.RP,Backups restoration tests continuity plans and lessons learned
+

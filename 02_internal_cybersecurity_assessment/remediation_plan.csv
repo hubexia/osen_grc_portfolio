@@ -1,0 +1,5 @@
+Finding ID,Priority,Required Action,Owner,Target,Status,Closure Evidence
+AUD-001,High,Implement centralized security log monitoring,Security Operations,90 days,Planned,Alert samples and review records
+AUD-002,High,Align backup schedules to RPO and complete restore test,IT Operations,60 days,In Progress,Successful restore-test report
+AUD-003,Medium,Launch quarterly privileged-access certification,IAM,120 days,Planned,Completed certification export
+

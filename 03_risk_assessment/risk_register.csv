@@ -1,0 +1,7 @@
+Risk ID,Risk Scenario,Asset,Likelihood,Impact,Inherent Rating,Treatment,Owner,Target,Residual Rating
+R-001,Phishing leads to credential compromise,Corporate email,4,4,High,Mitigate with MFA filtering and simulations,Security Operations,2026-12-15,Medium
+R-002,Ransomware disrupts critical services,File and application servers,3,5,High,Mitigate with segmentation EDR and tested backups,IT Operations,2027-01-31,Medium
+R-003,Third party exposes regulated data,Customer data integration,3,5,High,Mitigate with due diligence contract controls and monitoring,Vendor Management,2026-12-31,Medium
+R-004,Privileged misuse changes sensitive records,Administration platform,2,5,High,Mitigate with PAM logging and quarterly reviews,IAM,2027-02-28,Low
+R-005,Legacy system remains unsupported,Operations platform,4,3,High,Mitigate through upgrade plan and compensating controls,Technology Owner,2027-03-31,Medium
+
