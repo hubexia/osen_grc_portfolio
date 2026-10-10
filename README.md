@@ -4,7 +4,7 @@ Public Governance, Risk, and Compliance portfolio for Osen Osagie, maintained by
 
 ## Live site
 
-`https://hubexia.github.io/osen-grc-portfolio/`
+`https://hubexia.github.io/osen_grc_portfolio/`
 
 ## Portfolio areas
 
@@ -40,7 +40,7 @@ Then open `http://localhost:4173/`.
 
 The workflow in `.github/workflows/deploy-pages.yml` publishes the repository as a static GitHub Pages site after every push to `main`.
 
-Repository: `https://github.com/hubexia/osen-grc-portfolio`
+Repository: `https://github.com/hubexia/osen_grc_portfolio`
 
 ## Design reference
 
