@@ -203,14 +203,14 @@ These documents are public-safe portfolio samples. They demonstrate the project 
 const portfolioRows = projects
   .map(
     (project) =>
-      `| [${project.icon} ${project.title}](./${project.slug}/) | ${markdownCell(project.objective)} | ${markdownCell(project.frameworks)} | [GitHub folder](./${project.slug}/) · [Live page](${site.pages}${project.slug}/) · ${project.artifacts.length} artifacts |`,
+      `| [${project.icon} ${project.title}](${site.repository}/tree/main/${project.slug}) | ${markdownCell(project.objective)} | ${markdownCell(project.frameworks)} | [GitHub folder](${site.repository}/tree/main/${project.slug}) · [Live page](${site.pages}${project.slug}/) · ${project.artifacts.length} artifacts |`,
   )
   .join("\n");
 
 const repositoryRows = projects
   .map(
     (project) =>
-      `| [\`${project.slug}/\`](./${project.slug}/) | ${project.title} | README, project page, and ${project.artifacts.length} evidence files |`,
+      `| [\`${project.slug}/\`](${site.repository}/tree/main/${project.slug}) | ${project.title} | README, project page, and ${project.artifacts.length} evidence files |`,
   )
   .join("\n");
 
@@ -260,9 +260,9 @@ ${portfolioRows}
 | Directory | Project area | Contents |
 | --- | --- | --- |
 ${repositoryRows}
-| [\`assets/\`](./assets/) | Presentation layer | Shared Cayman-inspired light-theme stylesheet |
-| [\`scripts/\`](./scripts/) | Build tooling | Generates the portfolio homepage, project pages, and repository READMEs from one data source |
-| [\`.github/workflows/\`](./.github/workflows/) | Deployment | GitHub Pages publishing workflow for the \`main\` branch |
+| [\`assets/\`](${site.repository}/tree/main/assets) | Presentation layer | Shared Cayman-inspired light-theme stylesheet |
+| [\`scripts/\`](${site.repository}/tree/main/scripts) | Build tooling | Generates the portfolio homepage, project pages, and repository READMEs from one data source |
+| [\`.github/workflows/\`](${site.repository}/tree/main/.github/workflows) | Deployment | GitHub Pages publishing workflow for the \`main\` branch |
 
 ## How to review this portfolio
 
