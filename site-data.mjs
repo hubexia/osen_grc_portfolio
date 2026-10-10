@@ -5,6 +5,7 @@ export const site = {
     "Governance, Risk & Compliance portfolio demonstrating policy development, audit support, risk analysis, and resilience planning aligned with ISO/IEC 27001, NIST CSF 2.0, CIS Controls v8.1, and CIS RAM.",
   repository: "https://github.com/hubexia/osen_grc_portfolio",
   repositoryName: "osen_grc_portfolio",
+  pages: "https://hubexia.github.io/osen_grc_portfolio/",
   owner: "Hubexia",
   ownerUrl: "https://github.com/hubexia",
   email: "hello@osenosagie.com",
